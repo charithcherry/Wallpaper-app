@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/d1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO WALLY"
+        android:textSize="35dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/SetWall"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Set Wallpaper"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:color="#66FF0000"
+        android:alpha="0.60"
+    />
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="upload wallpaper"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:color="#66FF0000"
+        android:alpha="0.65"/>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Logout"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:color="#66FF0000"
+        android:alpha="0.70"/>
+</LinearLayout>
