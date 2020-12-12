@@ -35,7 +35,14 @@ public class DashboardActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent=new Intent(DashboardActivity.this,Setwallpaper.class);
                 startActivity(intent);
-                finish();
+            }
+        });
+
+        upload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(DashboardActivity.this,Uploadingimg.class);
+                startActivity(intent);
             }
         });
 
