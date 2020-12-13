@@ -25,6 +25,17 @@
         android:alpha="0.60"
     />
     <Button
+        android:id="@+id/ImagesView"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="view images"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:color="#66FF0000"
+        android:alpha="0.60"
+        />
+    <Button
         android:id="@+id/upload"
         android:layout_width="250dp"
         android:layout_height="60dp"

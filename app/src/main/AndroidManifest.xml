@@ -24,6 +24,7 @@
         <activity android:name=".Setwallpaper"/>
         <activity android:name=".MainActivity"/>
         <activity android:name=".Uploadingimg"/>
+        <activity android:name=".ImagesActivity"/>
     </application>
 
 </manifest>

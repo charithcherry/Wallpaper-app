@@ -12,7 +12,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class DashboardActivity extends AppCompatActivity {
 
 
-    private Button logout,setwall,upload;
+    private Button logout,setwall,upload,imagesview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,8 @@ public class DashboardActivity extends AppCompatActivity {
         logout=findViewById(R.id.logout);
         setwall=findViewById(R.id.SetWall);
         upload=findViewById(R.id.upload);
+        imagesview=findViewById(R.id.ImagesView);
+
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,7 +47,13 @@ public class DashboardActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        imagesview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(DashboardActivity.this,ImagesActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
 
